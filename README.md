@@ -15,14 +15,14 @@ signature neo-brutalist + rounded combo requested.
 
 ```bash
 npm install
-npm run dev       # starts dev server, usually http://localhost:5173
+npm run dev      
 ```
 
 ## Build for production
 
 ```bash
-npm run build      # outputs to /dist
-npm run preview    # preview the production build locally
+npm run build     
+npm run preview    
 ```
 
 ## Structure
