@@ -1,45 +1,96 @@
-# Ava — Neo-Brutalist Portfolio
+# Samarth's Portfolio
 
-React + TypeScript + Tailwind CSS v4 portfolio site, built in a strict
-3-color neo-brutalist style:
+A modern, responsive developer portfolio built with React, TypeScript, Tailwind CSS, and Framer Motion.
 
-- White `#FFFFFF`
-- Black `#000000`
-- Neon green `#D7FF00`
+## Tech Stack
 
-All buttons, chips, and cards use rounded shapes with thick black borders
-and hard "offset" shadows (no blur) that shift on hover/press, which is the
-signature neo-brutalist + rounded combo requested.
+- **React 18** + **TypeScript**
+- **Tailwind CSS** — utility-first styling
+- **Framer Motion** — animations
+- **Vite** — build tool
+- **Lucide React** — icons
 
-## Run it locally
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
 
 ```bash
+git clone https://github.com/Samarth-2409X/portfolio.git
+cd portfolio
 npm install
-npm run dev      
+npm run dev
 ```
 
-## Build for production
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Project Structure
+
+src/
+├── components/
+│   ├── Button.tsx
+│   ├── Eyebrow.tsx
+│   ├── Navbar.tsx
+│   └── ProjectCard.tsx
+├── sections/
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Projects.tsx
+│   ├── Skills.tsx
+│   └── Contact.tsx
+├── App.tsx
+└── main.tsx
+public/
+└── images/
+├── samarth1.jpg
+├── second-brain.png
+├── pocket-money.png
+└── coding-battle.png
+
+## Sections
+
+- **Hero** — Animated intro with portrait, orbit tags, and CTA buttons
+- **About** — Background, education, and highlights
+- **Skills** — Tech stack overview
+- **Projects** — Selected case studies with screenshots
+- **Contact** — Links and availability
+
+## Featured Projects
+
+| Project | Stack | Repo |
+|---|---|---|
+| Second Brain | MERN | [GitHub](https://github.com/Samarth-2409X/BrainlyFrontend) |
+| Pocket Money | MERN | [GitHub](https://github.com/Samarth-2409X/Pocket_Money) |
+| Coding Battle | MERN | [GitHub](https://github.com/Samarth-2409X/coding-battle-frontend) |
+
+## Scripts
 
 ```bash
-npm run build     
-npm run preview    
+npm run dev      # Start dev server
+npm run build    # Production build
+npm run preview  # Preview production build
+npm run lint     # Run ESLint
 ```
 
-## Structure
+## Deployment
 
-- `src/components/` — Button, Chip, ProjectCard, Navbar, Footer, Eyebrow
-- `src/sections/` — Hero, About, Projects, Skills, Services, Contact
-- `src/App.tsx` — assembles all sections
-- `src/index.css` — Tailwind v4 theme tokens (colors, fonts, shadow utilities)
+```bash
+npm run build
+```
 
-## Customizing
+Deploy the `dist/` folder to **Vercel**, **Netlify**, or **GitHub Pages**.
 
-- **Colors**: edit the `@theme` block in `src/index.css` (`--color-paper`,
-  `--color-ink`, `--color-zap`).
-- **Copy**: all text lives directly in each section file under `src/sections/`.
-- **Projects**: edit the `<ProjectCard />` list in `src/sections/Projects.tsx`
-  — swap `bg` colors, `title`, `tag`, or set `large` for a wide card.
-- **Skills**: edit the `tools` array in `src/sections/Skills.tsx`.
-- **Fonts**: Archivo Black (display), Space Grotesk (body), JetBrains Mono
-  (labels/buttons) — loaded via Google Fonts in `index.css`.
-# Portfolio-2
+### Vercel (recommended)
+
+```bash
+npm i -g vercel
+vercel
+```
+
+## License
+
+MIT
