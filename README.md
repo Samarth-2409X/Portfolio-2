@@ -70,10 +70,10 @@ public/
 ## Scripts
 
 ```bash
-npm run dev      # Start dev server
-npm run build    # Production build
-npm run preview  # Preview production build
-npm run lint     # Run ESLint
+npm run dev      
+npm run build    
+npm run preview  
+npm run lint     
 ```
 
 ## Deployment
