@@ -90,7 +90,3 @@ Deploy the `dist/` folder to **Vercel**, **Netlify**, or **GitHub Pages**.
 npm i -g vercel
 vercel
 ```
-
-## License
-
-MIT
