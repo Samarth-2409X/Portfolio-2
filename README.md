@@ -90,3 +90,7 @@ Deploy the `dist/` folder to **Vercel**, **Netlify**, or **GitHub Pages**.
 npm i -g vercel
 vercel
 ```
+## 👨‍💻 Author
+
+**Samarth**
+GitHub: [Samarth-2409X](https://github.com/Samarth-2409X)
