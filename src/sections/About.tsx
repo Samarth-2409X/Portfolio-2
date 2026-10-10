@@ -51,6 +51,9 @@ export default function About() {
               variant="dark"
               icon={<Mail size={16} strokeWidth={3} />}
               className="border-paper hover:bg-paper hover:text-ink"
+                onClick={() =>
+                  window.location.href = "mailto:samarthgone667@gmail.com"
+                }
             >
               Email
             </Button>
