@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import Button from "../components/Button";
 import Eyebrow from "../components/Eyebrow";
 
-// EmailJS configuration
+
 const SERVICE_ID = "service_krpoaoc";
 const TEMPLATE_ID = "template_00z3cz9";
 const PUBLIC_KEY = "jTgXPEB77m8RhR5Sg";
