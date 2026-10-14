@@ -47,7 +47,7 @@ export default function Contact() {
     const form = e.currentTarget;
 
     try {
-      // Send the form through EmailJS
+      
       await emailjs.sendForm(
         SERVICE_ID,
         TEMPLATE_ID,
@@ -57,7 +57,7 @@ export default function Contact() {
         }
       );
 
-      // Show success only when EmailJS accepts the request
+     
       setSubmitted(true);
       form.reset();
     } catch (err: unknown) {
